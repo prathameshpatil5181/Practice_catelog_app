@@ -42,6 +42,7 @@ class LoginPage extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
+                  // ignore: avoid_print
                   print("Registration done");
                 },
                 style: TextButton.styleFrom(),
